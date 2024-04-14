@@ -108,7 +108,7 @@ main{
     background-color: whitesmoke;
     width: 100%;
     height: 100%;
-    border-top: 1px solid #ddd;
+    border: 1px solid rgb(180, 177, 177);
     overflow-y: scroll;
 
 }
@@ -122,13 +122,13 @@ main{
 }
 
 .video_container{
-    width: 280px;
+    width: 250px;
     margin-bottom: 20px;
 }
 
 .video_thumbnail{
     width: 100%;
-    height: 200px;
+    height: 180px;
 }
 
 .video_thumbnail img{
@@ -144,9 +144,9 @@ main{
 }
 
 .video_details_leftpart img{
-    height: 40px;
-    width: 40px;
-    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
     margin-left: 5px;
 }
 
