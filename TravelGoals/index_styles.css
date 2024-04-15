@@ -1,4 +1,4 @@
-/* ----- main section-------------*/
+
 /*---------main section1--------------------*/
 #mainsection1{
     height: 800px;
@@ -29,6 +29,7 @@
     font-size: 30px;
     font-family: "Raleway", sans-serif;
     margin-bottom: 10px;
+    word-spacing: 8px;
 }
 
 
@@ -57,5 +58,51 @@
 
 /*------------main section2-----------------*/
 #mainsection2{
-
+    /*background-color: rgb(216, 244, 244);*/
+    background: linear-gradient(180deg,rgb(240, 245, 245), rgb(51, 237, 237));
+    padding: 24px;
 }
+
+#mainsection2 h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, serif;
+    margin: 24px 0;
+}
+
+
+#mainsection2_images_content{
+    display: flex; 
+    width: 90%;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+#mainsection2_images_content{
+    margin-left: 120px;
+}
+
+.image_content {
+    margin: 0 20px;
+}
+
+.image_content img {
+    height: 200px;
+    width: 100%;
+    box-shadow: 2px 4px 8px rgb(68,67,67);
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+
+.image_content p{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+}
+
+.image_content p strong{
+    color: rgb(93, 9, 9);
+}
+
+
