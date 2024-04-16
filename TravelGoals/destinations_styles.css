@@ -14,6 +14,13 @@ body {
 #destination_lists{
     width: 1200px;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px 20px;
+}
+
+#destination_lists li:nth-last-of-type(8){
+    grid-column: 1 / span 2;
 }
 
 .destination_contents{
@@ -22,7 +29,7 @@ body {
     box-shadow: 1px 1px 4px rgba(0,0,0,0.2);
     border-radius: 12px;
     overflow: hidden;
-    width: 500px;
+    height: 280px;
     
 }
 
