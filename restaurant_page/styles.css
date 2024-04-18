@@ -16,12 +16,14 @@ body {
 #header_container a{
     text-decoration: none;
     color: rgb(154, 13, 44);
-    font-size: 29px;
+    /*font-size: 29px;*/
+    font-size: 1.8rem;
     font-family: cursive;
 }
 
 #header_navbar a{
-    font-size: 18px;
+    /*font-size: 18px;*/
+    font-size: 1.2rem;
     font-family: sans-serif;
 }
 
@@ -45,7 +47,8 @@ body {
 /*--------------main section-----------------*/
 main h1{
     text-align: center;
-    font-size: 45px;
+    /*font-size: 45px;*/
+    font-size: 3rem;
 }
 
 main section{
