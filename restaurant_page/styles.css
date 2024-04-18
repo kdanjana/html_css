@@ -4,12 +4,13 @@ body {
 }
 
 #header_container {
-    height: 80px;
+    height: 5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgba(245, 147, 173, 0.999);
-    padding: 0 25px;
+    /*padding: 0 25px;*/
+    padding: 0 4%; /* 4% of total width of header*/
 }
 
 
@@ -41,7 +42,8 @@ body {
 }
 
 #header_navbar ul li{
-    margin: 0 15px;
+    /*margin: 0 15px;*/
+    margin: 0 1rem;
 }
 
 /*--------------main section-----------------*/
@@ -54,29 +56,36 @@ main h1{
 main section{
     width: 80%;
     /* center the block ele */
-    margin: 50px auto;
+    margin: 3rem auto;
 }
 
 main section ul{
     list-style: none;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 15px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ;
+    gap: 1rem;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ;
 }
 
 .meals_contents div{
     text-align: center;
 }
 
+
+.meals_contents h2 {
+    font-size: 1.5rem;
+}
+
+
 .meals_contents img {
-    height: 250px;
+    /* height: 250px; */
+    height: 15.5rem;
     width: 100%;
     object-fit: cover;
 }
 
 main section ul li {
     background-color:rgba(245, 147, 173, 0.999);
-    padding-bottom: 30px;
+    padding-bottom: 2rem;
     border-radius: 20px;
     overflow: hidden;/* made round corners for image also */
 }
@@ -85,13 +94,13 @@ main section ul li {
 .meals_contents article div a{
     text-decoration: none;
     background-color:  rgb(217, 197, 235);
-    padding: 8px 8px;
+    padding: 0.5rem 0.5rem;
     border-radius: 8px;
 }
 
 .meals_contents  article div a:hover{
     background-color: rgb(182, 137, 224);
-    padding: 8px 8px;
+    padding: 0.5rem 0.5rem;
     border-radius: 8px;
 }
 
