@@ -9,14 +9,35 @@
 <body>
     <header id="header_container">
         <a href=""> Joe's FOOD</a>
+        <!--navbar will be displayed in this style when the width is > 680px-->
         <nav id="header_navbar">
             <ul>
                 <li> <a href=""> Browse Meals </a></li>
                 <li> <a href=""> My Orders </a></li>
             </ul>
         </nav>
+        <a href="#sidebar_navbar" class="menu_button">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
     </header>
-
+    <!-- side drawer, navbar will be displayed in this style when the width is less than 680px-->
+    <aside id="sidebar_navbar">
+        <header>
+            <a href="#" class="menu_button">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </header>
+        <nav>
+            <ul>
+                <li> <a href=""> Browse Meals </a></li>
+                <li> <a href=""> My Orders </a></li>
+            </ul>
+        </nav>
+    </aside>  
     <main>
         <h1> Today's Specials </h1>
         <section>
@@ -41,6 +62,6 @@
                 </li>
             </ul>
         </section>
-    </main>    
+    </main>  
 </body>
 </html>

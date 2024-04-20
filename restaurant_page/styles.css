@@ -29,7 +29,10 @@ body {
 }
 
 #header_navbar a:hover{
-    color: rgb(121, 8, 33);    
+    color: rgb(121, 8, 33); 
+    background-color: rgba(239, 93, 132, 0.999);   
+    padding: 0.5rem;
+    border-radius: 0.4rem;
 }
 
 
@@ -45,6 +48,79 @@ body {
     /*margin: 0 15px;*/
     margin: 0 1rem;
 }
+
+
+.menu_button {
+    width: 3rem;
+    height: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    display: none;
+
+}
+
+.menu_button span {
+    width: 100%;
+    height: 3px;
+    background-color: white;
+}
+
+
+
+#sidebar_navbar {
+    width: 15%;
+    height: 50%;
+    border-radius: 0.2rem;
+    list-style: none;  
+    background-color: rgba(245, 147, 173, 0.999);
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: none;
+
+}
+
+ /* target psuedo selector checks if this id sidebar_navbar
+ is pesent in url, this id will be in url when href="#sidebar_navabar"
+ anchor tag is clicked */
+ #sidebar_navbar:target{
+    display: block;
+}
+
+#sidebar_navbar .menu_button{
+    margin: 1.6rem 0;
+}
+
+
+#sidebar_navbar ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+
+#sidebar_navbar li {
+    margin: 1rem 0;
+}
+
+
+#sidebar_navbar nav a{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: rgb(154, 13, 44);
+}
+
+#sidebar_navbar nav a:hover{
+    color: rgb(121, 8, 33); 
+    background-color: rgba(239, 93, 132, 0.999);   
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+}
+
+
 
 /*--------------main section-----------------*/
 main h1{
@@ -93,19 +169,38 @@ main section ul li {
 
 .meals_contents article div a{
     text-decoration: none;
-    background-color:  rgb(217, 197, 235);
+    background-color: rgba(242, 95, 134, 0.999);  ;
     padding: 0.5rem 0.5rem;
     border-radius: 8px;
+    color: rgb(154, 13, 44);
 }
 
 .meals_contents  article div a:hover{
-    background-color: rgb(182, 137, 224);
+    color: rgb(121, 8, 33); 
+    background-color: rgba(235, 62, 108, 0.999);   
     padding: 0.5rem 0.5rem;
     border-radius: 8px;
 }
 
 
 /*------Responsive design ----------*/
-@media only screen and (max-width: 650px){
+@media (max-width: 40rem){
+    #header_navbar {
+        display: none;
+    }
+
+    .menu_button {
+        display: flex;
+    }
+
+    
+    main h1{
+        font-size: 1.5rem;
+    }
+
+    main section ul{
+        display: grid;
+        grid-template-columns: 100%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ;
+    }
 
 }
