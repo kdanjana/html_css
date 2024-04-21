@@ -69,8 +69,8 @@ body {
 
 
 #sidebar_navbar {
-    width: 15%;
-    height: 50%;
+    width: 20%;
+    height: 60vh;
     border-radius: 0.2rem;
     list-style: none;  
     background-color: rgba(245, 147, 173, 0.999);
@@ -193,7 +193,10 @@ main section ul li {
         display: flex;
     }
 
-    
+    #sidebar_navbar nav a{
+        font-size: 0.8rem;
+    }
+
     main h1{
         font-size: 1.5rem;
     }
