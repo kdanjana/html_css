@@ -1,0 +1,110 @@
+html {
+    background-color: rgb(217, 245, 245);
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+form {
+    width: 38rem;
+    margin: 3rem auto;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 6px;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+
+input, 
+textarea, 
+select{
+    width: 100%;
+    margin-bottom:  1rem;
+    display: block; /* to make input element behave as block ele */
+    box-sizing: border-box;
+    border: 1px solid grey;
+    padding: 0.25rem;
+    color: rgb(71, 70, 70);
+    height: 2rem;
+}
+
+textarea {
+   /* height: 5rem;
+   resize: vertical; */
+   resize: none;
+   
+} 
+
+select {
+    width: 40%
+}
+
+input:focus,
+textarea:focus {
+    background-color: rgb(212, 246, 246);
+    color: rgb(15, 69, 69);
+    border-color: rgb(205, 20, 91);
+
+}
+
+
+
+
+button {
+    display: block; /* to make button element behave as block ele */
+    /* font-family:  sans-serif;  
+    or if we want to use the same font family as the one mentioned in the html use "inherit"*/
+    font-family: inherit;
+    background-color: rgb(123, 111, 135);
+    color: white;
+    border: 1px solid rgb(85, 11, 159);
+    padding: 0.5rem 0.8rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+
+
+button:hover {
+    background-color: rgb(170, 130, 211);
+    cursor: pointer;
+}
+
+h4 {
+    margin-bottom: 0.5rem;
+}
+
+.form_radio {
+    display: flex;
+    margin-bottom: -1.5rem; 
+}
+
+
+.form_radio input{
+    width: auto;
+    margin-right: 0.5rem;
+}
+
+
+.form_radio label {
+    margin-left: 0;
+    margin-top: 0.5rem;
+}
+
+
+#button{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+#button button {
+    margin: auto 0.8rem;
+}

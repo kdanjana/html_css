@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1> Contact Us</h1>
+    </header>
+    <main>
+        <form>
+            <h3> How can we help you?</h3>
+            <label for="uname">Enter User Name</label>
+            <input type="text" name="user_name" id="uname" placeholder="enter name" required>
+    
+            <label for="user_age">Enter Age</label>
+            <input type="number" name="age" id="user_age" required min="18" max="80">
+    
+            <label for="birth_date">Enter date of birth</label>
+            <input type="date" name="birthday" id="birth_date" required>
+    
+            <label for="email">Enter Email</label>
+            <input type="email" name="email" id="email" required>
+                    
+            <label for="pwd">Enter Password</label>
+            <input type="password" name="password" id="pwd" required minlength="7">
+            
+            <label for="re_pwd">Re-enter Password</label>
+            <input type="password" name="re_password" id="re_pwd" required minlength="7">
+    
+            <label for="mssg"> Enter your mssg</label>
+            <textarea rows="9" name="message" id="mssg" ></textarea>         
+        
+            <hr>    
+            <label for="fav_color">Enter you favourite color</label>
+            <select id="fav_color" name="color">
+                <option> Black </option>
+                <option> White </option>
+            </select>    
+            <hr>            
+            <h4> Enter your gender</h4>
+            <div class="form_radio">
+                <input type="radio" name="gender" id="male" value="M" required>
+                <label for="male"> Male</label>
+            </div>
+            <div class="form_radio">
+                <input type="radio" name="gender" id="female" value="F" required>
+                <label for="female"> Female </label>
+            </div>            
+            <hr>            
+            <h4> How should we reply?</h4>
+            <div class="form_radio">
+                <input type="checkbox" name="mode" id="mail" value="mail">
+                <label for="mail"> Via Email.</label>
+            </div>
+            <div class="form_radio">
+                <input type="checkbox" name="mode" id="phone" value="phone">
+                <label for="phone"> Via Phone. </label>
+            </div>
+            <div id="button">
+                <button type="reset"> Clear </button>
+                <button> Submit </button>
+            </div>        
+        </form>
+    </main>
+</body>
+</html>
