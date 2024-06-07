@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h3>Survey Form</h3>
+        <p>Please fill the form. </p>
+        <form class="form">
+            <div class="fields">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter Name">
+            </div>
+            <div class="fields">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Enter E-Mail">
+            </div>
+            <div class="fields">
+                <label for="work-experience">Work Experience:</label>
+                <input type="text" id="work-experience" name="work-experience" placeholder="Enter Number">
+            </div>
+            <div class="fields">
+                <label for="investing-comfort">Are you comfortable in investing in real estate on platform without first
+                    investigating properly:</label>
+                <select id="investing-comfort" name="investing-comfort">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
+            <div class="fields">
+                <label for="suggestions">Suggestions to build trusted platform:</label>
+                <input type="text" id="suggestions" name="suggestions" placeholder="">
+            </div>
+            <div class="fields">
+                <label>You are ready to invest in:</label>
+                <div>
+                    <input type="checkbox" id="real-estate" name="invest" value="real-estate">
+                    <label for="real-estate">Real Estate</label><br>
+                    <input type="checkbox" id="mutual-funds" name="invest" value="mutual-funds">
+                    <label for="mutual-funds">Mutual Funds</label><br>
+                    <input type="checkbox" id="crypto-currency" name="invest" value="crypto-currency">
+                    <label for="crypto-currency">Crypto Currency</label><br>
+                    <input type="checkbox" id="stocks-bonds" name="invest" value="stocks-bonds">
+                    <label for="stocks-bonds">Stocks & Bonds</label>
+                </div>
+            </div>
+            <div class="fields">
+                <label>Are you ready for further contact:</label>
+                <div class="radios">
+                    <p>
+                        <input type="radio" id="contact-yes" name="contact" value="yes">
+                        <label for="contact-yes">Yes</label>
+                    </p>
+                    <input type="radio" id="contact-no" name="contact" value="no">
+                    <label for="contact-no">No</label>
+                </div>
+            </div>
+            <div id="button">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
