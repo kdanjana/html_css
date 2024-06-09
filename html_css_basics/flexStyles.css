@@ -1,0 +1,23 @@
+.main {
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main .div1 {
+  padding-left: 15px;
+}
+
+.main .navbar {
+  flex: 0.8;
+}
+.main .navbar ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.main .navbar ul li {
+  list-style: none;
+}
